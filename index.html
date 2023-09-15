@@ -56,7 +56,7 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 
-          <tr onmouseout="nerfw_stop()" onmouseover="nerfw_start()">
+          <!-- <tr onmouseout="nerfw_stop()" onmouseover="nerfw_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='nerfw_image'><video  width=100% height=100% muted autoplay loop>
@@ -99,7 +99,7 @@
               <p>Present a novel network architecture for multi-label image classification 
                 which incorporates a textual encoding branch but only requires image input.</p>
             </td>
-          </tr> 
+          </tr>  -->
 
           <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -129,14 +129,17 @@
               <a href="https://yuzhang03.github.io/">Yu Zhang</a>,
               <a href="https://jacobsn.github.io/">Nathan Jacobs</a>,
               <br>
-              <em>BMVC</em>, 2023
+              <em>British Machine Vision Conference (BMVC)</em>, 2023
               <br>
               <!-- <a href="http://sniklaus.com/dualref">project page</a> / -->
               <a href="https://arxiv.org/abs/2309.01842">arXiv</a>
               <p></p>
               <p>
-                Introduce a novel training strategy for stereo matching and optical flow estima-
-                tion that utilizes image-to-image translation between synthetic and real image domains.
+                We introduce a novel training strategy for stereo matching and optical flow estima- tion that utilizes image-to-image translation between synthetic and real image domains. 
+                Our approach enables the training of models that excel in real image scenarios while relying solely on ground-truth information from synthetic images. 
+                To facilitate task- agnostic domain adaptation and the training of task-specific components, we introduce a bidirectional feature warping module that handles both left-right and forward-backward directions. 
+                Experimental results show competitive performance over previous domain translation-based methods, 
+                which substantiate the efficacy of our proposed framework, effectively leveraging the benefits of unsupervised domain adaptation, stereo matching, and optical flow estimation.
               </p>
             </td>
           </tr>
@@ -161,7 +164,7 @@
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/ccs2.12065">
-                <papertitle>StereoFlowGAN: Co-training for Stereo and Flow with Unsupervised Domain Adaptation</papertitle>
+                <papertitle>PruneFaceDet: Pruning lightweight face detection network by sparsity training</papertitle>
               </a>
               <br>
               <a>Nanfei Jiang </a>,
@@ -175,7 +178,7 @@
               <em>Cognitive Computation and Systems</em>
               <br>
               <!-- <a href="http://sniklaus.com/dualref">project page</a> / -->
-              <a href="https://arxiv.org/abs/2309.01842">arXiv</a>
+              <!-- <a href="https://arxiv.org/abs/2309.01842">arXiv</a> -->
               <p></p>
               <p>
                 We propose a network pruning pipeline,PruneFaceDet, to prune the lightweight face detection network, which performs training
