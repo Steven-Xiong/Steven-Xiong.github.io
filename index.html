@@ -105,8 +105,8 @@
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='dualrefl_image'>
-                  <img src='images/dualrefl_after.jpg' width="160"></div>
-                <img src='images/dualrefl_before.jpg' width="160">
+                  <img src='images/stereoflowgan_framework.png' width="160"></div>
+                <img src='images/stereoflowgan_framework.png' width="160">
               </div>
               <script type="text/javascript">
                 function dualrefl_start() {
@@ -120,12 +120,12 @@
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="http://sniklaus.com/dualref">
+              <a href="https://paperswithcode.com/paper/stereoflowgan-co-training-for-stereo-and-flow">
                 <papertitle>StereoFlowGAN: Co-training for Stereo and Flow with Unsupervised Domain Adaptation</papertitle>
               </a>
               <br>
               <strong>Zhexiao Xiong</strong>,
-              Feng Qiao</a>,
+              <a href="https://qjizhi.github.io/">Feng Qiao</a>,
               <a href="https://yuzhang03.github.io/">Yu Zhang</a>,
               <a href="https://jacobsn.github.io/">Nathan Jacobs</a>,
               <br>
@@ -141,14 +141,59 @@
             </td>
           </tr>
 
-					
+					<tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='dualrefl_image'>
+                  <img src='images/ccs.png' width="160"></div>
+                <img src='images/ccs.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function dualrefl_start() {
+                  document.getElementById('dualrefl_image').style.opacity = "1";
+                }
+
+                function dualrefl_stop() {
+                  document.getElementById('dualrefl_image').style.opacity = "0";
+                }
+                dualrefl_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/ccs2.12065">
+                <papertitle>StereoFlowGAN: Co-training for Stereo and Flow with Unsupervised Domain Adaptation</papertitle>
+              </a>
+              <br>
+              <a>Nanfei Jiang </a>,
+              <strong>Zhexiao Xiong</strong>,
+              <a>Hui Tian </a>,
+              <a href="https://scholar.google.com/citations?user=6D0X8SQAAAAJ&hl=zh-CN">Xu Zhao</a>,
+              <a>Xiaojie Du </a>,
+              <a>Chaoyang Zhao </a>,
+              <a href="https://scholar.google.com/citations?user=7_BkyxEAAAAJ&hl=zh-CN">Jinqiao Wang</a>,
+              <br>
+              <em>Cognitive Computation and Systems</em>
+              <br>
+              <!-- <a href="http://sniklaus.com/dualref">project page</a> / -->
+              <a href="https://arxiv.org/abs/2309.01842">arXiv</a>
+              <p></p>
+              <p>
+                We propose a network pruning pipeline,PruneFaceDet, to prune the lightweight face detection network, which performs training
+                with L1 regularisation before CP. We compare two thresholding methods to get proper
+                pruning thresholds in the CP stage. We apply the proposed pruning pipeline on the lightweight
+                face detector and evaluate the performance on the WiderFace dataset, and get the result of a 56.3% decline of
+                parameter size with almost no accuracy drop.
+              </p>
+            </td>
+          </tr>
+
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
             <td style="padding:0px">
               <br>
               <p style="text-align:right;font-size:small;">
-                Feel free to steal this website's <a href="https://github.com/jonbarron/jonbarron_website">source code</a>. <strong>Do not</strong> scrape the HTML from this page itself, as it includes analytics tags that you do not want on your own website &mdash; use the github code instead. Also, consider using <a href="https://leonidk.com/">Leonid Keselman</a>'s <a href="https://github.com/leonidk/new_website">Jekyll fork</a> of this page.
+                Thank Jon Barron for sharing his website's source code。
               </p>
             </td>
           </tr>
