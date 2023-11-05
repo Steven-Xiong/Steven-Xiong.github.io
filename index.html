@@ -103,7 +103,7 @@
                 which incorporates a textual encoding branch but only requires image input.</p>
             </td>
           </tr>  -->
-
+          
           <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -143,6 +143,48 @@
                 To facilitate task- agnostic domain adaptation and the training of task-specific components, we introduce a bidirectional feature warping module that handles both left-right and forward-backward directions. 
                 Experimental results show competitive performance over previous domain translation-based methods, 
                 which substantiate the efficacy of our proposed framework, effectively leveraging the benefits of unsupervised domain adaptation, stereo matching, and optical flow estimation.
+              </p>
+            </td>
+          </tr>
+          
+          <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='dualrefl_image'>
+                  <img src='images\VLPL_Architecture.pdf' width="160"></div>
+                <img src='images\VLPL_Architecture.pdf' width="160">
+              </div>
+              <script type="text/javascript">
+                function dualrefl_start() {
+                  document.getElementById('dualrefl_image').style.opacity = "1";
+                }
+
+                function dualrefl_stop() {
+                  document.getElementById('dualrefl_image').style.opacity = "0";
+                }
+                dualrefl_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2310.15985">
+                <papertitle>Vision-Language Pseudo-Labels for Single-Positive Multi-Label Learning</papertitle>
+              </a>
+              <br>
+              <a href="https://xtrigold.github.io/">Feng Qiao</a>,
+              <strong>Zhexiao Xiong</strong>,
+              <a href="https://cs.slu.edu/~stylianou/">Abby Stylianou</a>,
+              <a href="https://sites.wustl.edu/srikumarsastry/">Srikumar Sastry</a>,
+              <a>Liyu Gong </a>,
+              <a href="https://jacobsn.github.io/">Nathan Jacobs</a>,
+              <br>
+              <em>arxiv</em>, 2023
+              <br>
+              <!-- <a href="http://sniklaus.com/dualref">project page</a> / -->
+              <a href="https://arxiv.org/abs/2310.15985">arXiv</a>
+              <p></p>
+              <p>
+                We propose a novel approach called Vision-Language Pseudo-Labeling (VLPL), which uses a visionlanguage model to suggest strong positive and negative
+                pseudo-labels, and outperform the current SOTA methods by 5.5% on Pascal VOC, 18.4% on MS-COCO, 15.2% on NUS-WIDE, and 8.4% on CUB-Birds. 
               </p>
             </td>
           </tr>
