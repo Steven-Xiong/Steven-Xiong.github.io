@@ -117,6 +117,46 @@
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='dualrefl_image'>
+                  <img src='images\mixedview_framework.pdf' width="160"></div>
+                <img src='images\mixedview_framework.pdf' width="160">
+              </div>
+              <script type="text/javascript">
+                function dualrefl_start() {
+                  document.getElementById('dualrefl_image').style.opacity = "1";
+                }
+
+                function dualrefl_stop() {
+                  document.getElementById('dualrefl_image').style.opacity = "0";
+                }
+                dualrefl_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a>
+                <papertitle>Mixed-View Panorama Synthesis using Geospatially Guided Diffusion</papertitle>
+              </a>
+              <br>
+              <strong>Zhexiao Xiong</strong>,
+              <a href="https://xtrigold.github.io/">Xin Xing</a>,
+              <a href="https://www.scottworkman.com/">Scott Workman</a>,
+              <a href="https://subash-khanal.github.io/">Subash Khanal</a>,
+              <a href="https://jacobsn.github.io/">Nathan Jacobs</a>
+              <br>
+              <em>(In Submission)</em>
+              <br>
+              <!-- <a href="http://sniklaus.com/dualref">project page</a> / -->
+              <a href="https://arxiv.org/abs/2310.15985">arXiv</a>
+              <p></p>
+              <p>
+                Use geospatial information to guide the diffusion model in mixed-view panoramas synthesis task.
+              </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='dualrefl_image'>
                   <img src='images/stereoflowgan_framework.png' width="160"></div>
                 <img src='images/stereoflowgan_framework.png' width="160">
               </div>
