@@ -20,7 +20,7 @@
               <p style="text-align:center">
                 <name>Zhexiao Xiong</name>
               </p>
-              <p>I am a second year Ph.D. candidate in Computer Science in <a href="https://mvrl.cse.wustl.edu/">Multimodal Vision Research Laboratory (MVRL)</a> 
+              <p>I am a third year Ph.D. candidate in Computer Science in <a href="https://mvrl.cse.wustl.edu/">Multimodal Vision Research Laboratory (MVRL)</a> 
                 at <a href="https://cse.wustl.edu/">Washington University in St. Louis</a>, advised by Prof. <a href="https://jacobsn.github.io/">Nathan Jacobs</a>. 
                 Before that, I received my bachelor's degree in Electrical and Information Engineering from <a href="http://www.tju.edu.cn/english/index.htm">Tianjin University</a>.
                 I spent a wonderful year at <a href="http://english.ia.cas.cn/">Institute of Automation, Chinese Academy of Sciences(CASIA)</a>,
@@ -112,6 +112,56 @@
             </td>
           </tr>  -->
           
+          <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()"></tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='dualrefl_image'>
+                  <img src='images\groundingbooth.jpg' width="160"></div>
+                <img src='images\groundingbooth.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function dualrefl_start() {
+                  document.getElementById('dualrefl_image').style.opacity = "1";
+                }
+
+                function dualrefl_stop() {
+                  document.getElementById('dualrefl_image').style.opacity = "0";
+                }
+                dualrefl_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2409.08520">
+                <papertitle>GroundingBooth: Grounding Text-to-Image Customization</papertitle>
+              </a>
+              <br>
+              <strong>Zhexiao Xiong</strong>,
+              <a href="https://wxiong.me">Wei Xiong</a>,
+              <a href="https://jshi31.github.io/jingshi">Jing Shi</a>,
+              <a href="https://sites.google.com/site/hezhangsprinter">He Zhang</a>,
+              <a href="https://song630.github.io/yizhisong.github.io">Yizhi Song</a>,
+              <a href="https://jacobsn.github.io/">Nathan Jacobs</a>
+              <!-- <br>
+              <em>(In Submission)</em>
+              <br> -->
+              <!-- <a href="http://sniklaus.com/dualref">project page</a> / -->
+              <a href="https://arxiv.org/abs/2409.08520">arXiv</a>
+              <p></p>
+              <p>
+                Recent studies in text-to-image customization show great success in generating personalized object variants given several images of a subject. 
+                While existing methods focus more on preserving the identity of the subject, they often fall short of controlling the spatial relationship between objects. 
+                In this work, we introduce GroundingBooth, a framework that achieves zero-shot instance-level spatial grounding on both foreground subjects and background objects in the text-to-image customization task. 
+                Our proposed text-image grounding module and masked cross-attention layer allow us to generate personalized images with both accurate layout alignment and identity preservation while maintaining text-image coherence. 
+                With such layout control, our model inherently enables the customization of multiple subjects at once. Our model is evaluated on both layout-guided image synthesis and reference-based customization tasks, showing strong results compared to existing methods. 
+                Our work is the first work to achieve a joint grounding of both subject-driven foreground generation and text-driven background generation. The project page is available at \url{https://groundingbooth.github.io}.
+              </p>
+            </td>
+          </tr>
+
+
+
+
+          <!-- BEFORE 2024.9.15 -->
           <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
