@@ -160,8 +160,48 @@
           </tr>
           
           <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='dualrefl_image'>
+                  <img src='images\panodreamer_pipeline.jpg' width="160"></div>
+                <img src='images\panodreamer_pipeline.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function dualrefl_start() {
+                  document.getElementById('dualrefl_image').style.opacity = "1";
+                }
 
+                function dualrefl_stop() {
+                  document.getElementById('dualrefl_image').style.opacity = "0";
+                }
+                dualrefl_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a>
+                <papertitle>PanoDreamer: Consistent Text to 360-Degree Scene Generation</papertitle>
+              </a>
+              <br>
+              <strong>Zhexiao Xiong</strong>,
+              <a href="https://zhangchen8.github.io/">Zhang Chen</a>,
+              <a href="https://sites.google.com/site/lizhong19900216/">Zhong Li</a>,
+              <a href="https://scholar.google.com/citations?user=ldanjkUAAAAJ&hl=en">Yi Xu</a>,
+              <a href="https://jacobsn.github.io/">Nathan Jacobs</a>
+              <br>
+              <em>In Submission</em>, 2024
+              <br>
+              <!-- <a href="http://sniklaus.com/dualref">project page</a> / -->
+              <!-- <a href="https://arxiv.org/abs/2310.15985">arXiv</a> -->
+              <p></p>
+              <p>
+                We propose PanoDreamer, a holistic text to 360-degree scene generation pipeline, which achieves consistent text-to-360-degree scene generation with customized trajectory-guided 
+                scene extension. We introduce semantically guided novel view synthesis into the refinement of 3D-GS optimization, reducing artifacts and improving geometric consistency. 
+                Experiments show the effectiveness of our model in generating geometrically consistent and high-quality 360-degree scenes.
+              </p>
+            </td>
+          </tr>
 
+          <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()">
           </tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -332,7 +372,7 @@
               <a href="https://arxiv.org/abs/2309.01842">arXiv</a>
               <p></p>
               <p>
-                We introduce a novel training strategy for stereo matching and optical flow estima- tion that utilizes image-to-image translation between synthetic and real image domains. 
+                We introduce a novel training strategy for stereo matching and optical flow estimation that utilizes image-to-image translation between synthetic and real image domains. 
                 Our approach enables the training of models that excel in real image scenarios while relying solely on ground-truth information from synthetic images. 
                 To facilitate task- agnostic domain adaptation and the training of task-specific components, we introduce a bidirectional feature warping module that handles both left-right and forward-backward directions. 
                 Experimental results show competitive performance over previous domain translation-based methods, 
