@@ -246,6 +246,51 @@
               </p>
             </td>
           </tr>
+
+          <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()"></tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='dualrefl_image'>
+                  <img src='images\genstereo_teaser.jpg' width="160"></div>
+                <img src='images\genstereo_teaser.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function dualrefl_start() {
+                  document.getElementById('dualrefl_image').style.opacity = "1";
+                }
+
+                function dualrefl_stop() {
+                  document.getElementById('dualrefl_image').style.opacity = "0";
+                }
+                dualrefl_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2503.12720">
+                <papertitle>GenStereo: Towards Open-World Generation of Stereo Images and Unsupervised Matching</papertitle>
+              </a>
+              <br>
+              <a href="https://qjizhi.github.io/">Feng Qiao</a>,
+              <strong>Zhexiao Xiong</strong>,
+              <a href="https://ericx003.github.io/">Eric Xing</a>,
+              <a href="https://jacobsn.github.io/">Nathan Jacobs</a>
+              <!-- <br>
+              <em>(In Submission)</em>
+              <br> -->
+              <!-- <a href="http://sniklaus.com/dualref">project page</a> / -->
+              <!-- <a href="https://arxiv.org/abs/2408.01653">arXiv</a> -->
+              <p></p>
+              <p>
+                Existing stereo image generation methods typically focus on either visual quality for viewing or geometric accuracy for matching, but not both. 
+                We introduce GenStereo, a diffusion-based approach, to bridge this gap. The method includes two primary innovations (1) conditioning the diffusion process on a disparity-aware coordinate embedding and a warped input image, allowing for more precise stereo alignment than previous methods, and 
+                (2) an adaptive fusion mechanism that intelligently combines the diffusion-generated image with a warped image, improving both realism and disparity consistency. 
+                Through extensive training on 11 diverse stereo datasets, GenStereo demonstrates strong generalization ability. 
+                GenStereo achieves state-of-the-art performance in both stereo image generation and unsupervised stereo matching tasks.
+              </p>
+            </td>
+          </tr>
+
+
           <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()"></tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
