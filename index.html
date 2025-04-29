@@ -160,6 +160,53 @@
             </td>
           </tr>
           
+
+          <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()">
+          </tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='dualrefl_image'>
+                  <img src='images\mixed_view_framework.jpg' width="160"></div>
+                <img src='images\mixed_view_framework.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function dualrefl_start() {
+                  document.getElementById('dualrefl_image').style.opacity = "1";
+                }
+
+                function dualrefl_stop() {
+                  document.getElementById('dualrefl_image').style.opacity = "0";
+                }
+                dualrefl_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2407.09672v1">
+                <papertitle>Mixed-View Panorama Synthesis using Geospatially Guided Diffusion</papertitle>
+              </a>
+              <br>
+              <strong>Zhexiao Xiong</strong>,
+              <a href="https://xtrigold.github.io/">Xin Xing</a>,
+              <a href="https://www.scottworkman.com/">Scott Workman</a>,
+              <a href="https://subash-khanal.github.io/">Subash Khanal</a>,
+              <a href="https://jacobsn.github.io/">Nathan Jacobs</a>
+              <br>
+              <em>Transactions on Machine Learning Research (TMLR)</em>, 2025
+              <br>
+              <!-- <a href="http://sniklaus.com/dualref">project page</a> / -->
+              <a href="https://arxiv.org/abs/2407.09672v1">arXiv</a>
+              <p></p>
+              <p>
+                We introduce the task of mixed-view panorama synthesis, where the goal is to synthesize a novel panorama given a small set of input panoramas and a satellite image of the area. 
+                This contrasts with previous work which only uses input panoramas (same-view synthesis), or an input satellite image (cross-view synthesis). 
+                We argue that the mixed-view setting is the most natural to support panorama synthesis for arbitrary locations worldwide. 
+                A critical challenge is that the spatial coverage of panoramas is uneven, with few panoramas available in many regions of the world. 
+                We introduce an approach that utilizes diffusion-based modeling and an attention-based architecture for extracting information from all available input imagery. 
+                Experimental results demonstrate the effectiveness of our proposed method. In particular, our model can handle scenarios when the available panoramas are sparse or far from the location of the panorama we are attempting to synthesize.
+              </p>
+            </td>
+          </tr>
+
           <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -201,53 +248,7 @@
               </p>
             </td>
           </tr>
-
-          <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()">
-          </tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='dualrefl_image'>
-                  <img src='images\mixed_view_framework.jpg' width="160"></div>
-                <img src='images\mixed_view_framework.jpg' width="160">
-              </div>
-              <script type="text/javascript">
-                function dualrefl_start() {
-                  document.getElementById('dualrefl_image').style.opacity = "1";
-                }
-
-                function dualrefl_stop() {
-                  document.getElementById('dualrefl_image').style.opacity = "0";
-                }
-                dualrefl_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2407.09672v1">
-                <papertitle>Mixed-View Panorama Synthesis using Geospatially Guided Diffusion</papertitle>
-              </a>
-              <br>
-              <strong>Zhexiao Xiong</strong>,
-              <a href="https://xtrigold.github.io/">Xin Xing</a>,
-              <a href="https://www.scottworkman.com/">Scott Workman</a>,
-              <a href="https://subash-khanal.github.io/">Subash Khanal</a>,
-              <a href="https://jacobsn.github.io/">Nathan Jacobs</a>
-              <!-- <br>
-              <em>(In Submission)</em>
-              <br> -->
-              <!-- <a href="http://sniklaus.com/dualref">project page</a> / -->
-              <a href="https://arxiv.org/abs/2407.09672v1">arXiv</a>
-              <p></p>
-              <p>
-                We introduce the task of mixed-view panorama synthesis, where the goal is to synthesize a novel panorama given a small set of input panoramas and a satellite image of the area. 
-                This contrasts with previous work which only uses input panoramas (same-view synthesis), or an input satellite image (cross-view synthesis). 
-                We argue that the mixed-view setting is the most natural to support panorama synthesis for arbitrary locations worldwide. 
-                A critical challenge is that the spatial coverage of panoramas is uneven, with few panoramas available in many regions of the world. 
-                We introduce an approach that utilizes diffusion-based modeling and an attention-based architecture for extracting information from all available input imagery. 
-                Experimental results demonstrate the effectiveness of our proposed method. In particular, our model can handle scenarios when the available panoramas are sparse or far from the location of the panorama we are attempting to synthesize.
-              </p>
-            </td>
-          </tr>
-
+          
           <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()"></tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
