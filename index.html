@@ -120,32 +120,92 @@
           </tr>  -->
           
           
-          <tr>
+          <tr onmouseout="unidrive_stop()" onmouseover="unidrive_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='unidrive_image'>
+                  <img src='images/unidrive-wm.jpg' width="160"></div>
+                <img src='images/unidrive-wm.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function unidrive_start() {
+                  document.getElementById('unidrive_image').style.opacity = "1";
+                }
+
+                function unidrive_stop() {
+                  document.getElementById('unidrive_image').style.opacity = "0";
+                }
+                unidrive_stop()
+              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <papertitle>Unified Understanding, Planning and Generation model for Autonomous Driving</papertitle>
+              <a>
+                <papertitle>UniDrive-WM: Unified Understanding, Planning and Generation World Model For Autonomous Driving</papertitle>
+              </a>
               <br>
-              <em>Research Project during internship at Bosch Research</em>
+              <strong>Zhexiao Xiong</strong>,
+              <a href="https://scholar.google.com/citations?user=2A79H_UAAAAJ&hl=en">Xin Ye</a>,
+              <a href="https://byaman14.github.io/">Burhan Yaman</a>,
+              <a href="https://shengcheng.github.io/">Sheng Cheng</a>,
+              <a href="https://yiren-lu.com/">Yiren Lu</a>,
+              <a href="https://scholar.google.com/citations?user=vNwd2SoAAAAJ&hl=en/">Jingru Luo</a>,
+              <a href="https://jacobsn.github.io/">Nathan Jacobs</a>,
+              <a href="https://www.liu-ren.com/">Ren Liu</a>,
+              <br>
+              <em>(In Submission)</em>
+              <br>
+              <!-- <a href="http://sniklaus.com/dualref">project page</a> / -->
+              <!-- <a href="https://arxiv.org/abs/2409.08520">arXiv</a> -->
               <p></p>
               <p>
-                Developed a <b>world-model</b>-based framework that unifies trajectory planning and autoregressive future image generation, enhanced with Chain-of-Thought reasoning within a single vision-language model (VLM). 
-                Enabled think visually before planning, leading to more accurate and robust decision-making, and demonstrated significant gains on vision-language planning (VLP) benchmarks.
+                Developed a world-model-based framework that unifies trajectory planning and autoregressive future image generation, enhanced with Chain-of-Thought reasoning within a single vision-language model (VLM). 
+                Enabled visual thinking, leading to more accurate and robust decision-making, and demonstrated significant gains on vision-language planning(VLP) benchmarks.
               </p>
             </td>
           </tr>
 
-          <tr>
+
+          <tr onmouseout="physalign_stop()" onmouseover="physalign_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='physalign_image'>
+                  <img src='images/physalign.jpg' width="160"></div>
+                <img src='images/physalign.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function physalign_start() {
+                  document.getElementById('physalign_image').style.opacity = "1";
+                }
+
+                function physalign_stop() {
+                  document.getElementById('physalign_image').style.opacity = "0";
+                }
+                physalign_stop()
+              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <papertitle>Physically Coherent Video Generation</papertitle>
+              <a>
+                <papertitle>PhysAlign: Physics-Coherent Video Generation through Feature and 3D Representation Alignment</papertitle>
+              </a>
               <br>
-              <em>On-going Project</em>
+              <strong>Zhexiao Xiong</strong>,
+              <a href="https://wxiong.me">Wei Xiong</a>,
+              <a href="https://song630.github.io/yizhisong.github.io">Yizhi Song</a>,
+              <a href="https://arking1995.github.io/">Liu He</a>,
+              <a href="https://yuanyuspace.cn/about/">Yu Yuan</a>,
+              <a href="https://qjizhi.github.io/">Feng Qiao</a>,
+              <a href="https://jacobsn.github.io/">Nathan Jacobs</a>
+              <br>
+              <em>(In Submission)</em>
+              <br>
+              <!-- <a href="http://sniklaus.com/dualref">project page</a> / -->
+              <!-- <a href="https://arxiv.org/abs/2409.08520">arXiv</a> -->
               <p></p>
               <p>
-                Proposed a framework that leverages <b>vision-language models (VLM)</b>'s physics understanding to enable video generation with physically consistent motion and accurate 3D dynamics. 
-                Achieved physically plausible video generation by combining relational alignment with foundation video understanding models and physics-aware feature encoding.
+                Proposed a framework that leverages vision-language model(VLM)'s physics understanding to enable video
+                generation with physically consistent motion and accurate 3D dynamics.
+                Achieved physically plausible video generation by combining relational alignment with foundation video
+                understanding models, physics-aware feature encoding, and 3D geometry alignment.
               </p>
             </td>
           </tr>
