@@ -135,6 +135,53 @@
           </tr>  -->
           
           
+          <tr onmouseout="actworld_stop()" onmouseover="actworld_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='actworld_image'>
+                  <img src='images/actworld.png' width="160"></div>
+                <img src='images/actworld.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function actworld_start() {
+                  document.getElementById('actworld_image').style.opacity = "1";
+                }
+
+                function actworld_stop() {
+                  document.getElementById('actworld_image').style.opacity = "0";
+                }
+                actworld_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="#">
+                <papertitle>ActWorld: From Explorable to Interactive World Model via Action-Aware Memory</papertitle>
+              </a>
+              <br>
+              <strong>Zhexiao Xiong</strong>,
+              <a href="https://song630.github.io/yizhisong.github.io">Yizhi Song</a>,
+              <a href="https://scholar.google.com/citations?user=VeTCSyEAAAAJ&hl=en">Hao Kang</a>,
+              <a href="https://scholar.google.com/citations?user=0TIYjPAAAAAJ&hl=en">Qing Yan</a>,
+              <a href="https://liming-jiang.com/">Liming Jiang</a>,
+              <a href="https://scholar.google.com/citations?user=cm297XMAAAAJ&hl=en">Jenson Yang</a>,
+              <a href="https://scholar.google.com/citations?user=6bdPeKcAAAAJ&hl=en">Zhoujie Fu</a>,
+              <a href="https://scholar.google.com/citations?user=ZHZczW8AAAAJ&hl=en">Stathi Fotiadis</a>,
+              <a href="https://openreview.net/profile?id=~Zichuan_Liu4">Zichuan Liu</a>,
+              <a href="https://scholar.google.com/citations?user=NOgz-HsAAAAJ&hl=en">Bo Liu</a>,
+              <a href="https://ihollywhy.github.io/">Yiding Yang</a>,
+              <a href="https://scholar.google.com/citations?hl=en&user=mFC0wp8AAAAJ">Xin Lu</a>,
+              <a href="https://jacobsn.github.io/">Nathan Jacobs</a>
+              <br>
+              <em>(In Submission)</em>
+              <p></p>
+              <p>
+                Proposed ActWorld, an interactive world model that extends navigation-centric generators with mid-rollout object interaction via a hierarchical action-aware memory design that preserves causally critical interaction frames beyond the recency-based eviction horizon.
+                Constructed a 100K interaction-dense video dataset with chain-of-thought per-chunk annotations, enabling rich object interaction and flexible viewpoint control within a single real-time, chunk-autoregressive framework.
+              </p>
+            </td>
+          </tr>
+
+
           <tr onmouseout="unidrive_stop()" onmouseover="unidrive_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
